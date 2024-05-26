@@ -1,25 +1,21 @@
 {
-  "name": "ozerc721tags",
-  "version": "1.0.6",
-  "main": "dist/index.js",
-  "license": "MIT",
-  "homepage": "https://github.com/gmkung/tagsqueries-ozerc721tags",
+  "name": "builders-dao-erc721-atq-module",
+  "version": "1.0.",
+  "main": "main.mjs",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gmkung/tagsqueries-ozerc721tags.git"
-  },
-  "devDependencies": {
-    "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "@apollo/client": "^3.9.2",
-    "graphql": "^16.8.1",
-    "node-fetch": "^3.3.2",
-    "ozerc721tags": "^1.0.3"
-  },
+  "author": "gmkung <guangmian@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "node test.js"
+    "test": "node dist/tests/unittest.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "atq-types": "1.1.5",
+    "node-fetch": "^3.3.2"
   }
 }

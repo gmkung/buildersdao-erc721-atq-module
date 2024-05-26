@@ -1,1 +1,1 @@
-export { returnTags } from "./src/getOZERC721Tags.js"; // Adjust the path as necessary
+export { returnTags } from "./src/main.mjs"; // Adjust the path as necessary
