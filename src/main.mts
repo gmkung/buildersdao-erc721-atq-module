@@ -136,7 +136,7 @@ function transformPoolsToTags(
         "Public Name Tag": `${truncatedSymbolText} token`,
         "Project Name": collection.name,
         "UI/Website Link": ``,
-        "Public Note": `The contract for the ${collection.name} (${collection.symbol}) token.`,
+        "Public Note": `The ERC721 contract for the ${collection.name} (${collection.symbol}) token.`,
       };
 
       acc.push(tag);
